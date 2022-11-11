@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login/models/Product.dart';
+import 'package:login/screens/details/details_screen.dart';
 
 import '../../../constants.dart';
 import 'product_card.dart';
@@ -17,7 +18,7 @@ class PopularProducts extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: SectionTitle(
-            title: "Popular",
+            title: "Los Candidatos mas populares",
             pressSeeAll: () {},
           ),
         ),
@@ -35,7 +36,14 @@ class PopularProducts extends StatelessWidget {
                   image: demo_product2[index].image,
                   price: demo_product2[index].price,
                   bgColor: demo_product2[index].bgColor,
-                  press: () {},
+                  press: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) =>
+                              DetailsScreen(product: demo_product2[index]),
+                        ));
+                  },
                 ),
               ),
             ),
