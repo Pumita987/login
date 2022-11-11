@@ -21,27 +21,31 @@ List<Product> demo_product = [
     image: "assets/images/acuña.png",
     title: "El maestro acuña",
     price: 5,
-    palabraDeMaestro: "Gaaaaaaa",
+    palabraDeMaestro:
+        "Trabajaremos por una cultura de prevención en salud, como también en mejorar la calidad de atención a los pacientes y propiciaremos un entorno saludable para los ciudadanos de nuestra región.",
     bgColor: const Color(0xFFFEFBF9),
   ),
   Product(
     image: "assets/images/chupetin.png",
     title: "Chupetin Pedro castillo",
     price: 6,
-    palabraDeMaestro: "dsfsdf",
+    palabraDeMaestro:
+        "Gestionaremos la modernización de los hospitales y centros de salud en la región Ica, con la incorporación de profesionales especializados en número suficiente.",
   ),
   Product(
     image: "assets/images/johnny.png",
     title: "Johnny Alan García",
     price: 7,
-    palabraDeMaestro: "dsfsdf",
+    palabraDeMaestro:
+        "Repotenciar los Comedores Populares, proveyéndolos de los recursos económicos y de gestión que sean necesarios para su administración y funcionamiento con máxima transparencia.",
     bgColor: const Color(0xFFF8FEFB),
   ),
   Product(
     image: "assets/images/lapagod.png",
     title: "Lapagol quispe xD",
     price: 8,
-    palabraDeMaestro: "dsfsdf",
+    palabraDeMaestro:
+        "Se asignará un presupuesto mínimo del 6% del producto bruto interno para el sector educación.",
     bgColor: const Color(0xFFEEEEED),
   ),
 ];
@@ -51,14 +55,16 @@ List<Product> demo_product2 = [
     image: "assets/images/luffy.png",
     title: "Muguiwara no luffy",
     price: 1,
-    palabraDeMaestro: "dsfsdf",
+    palabraDeMaestro:
+        "La remodelación de colegios en lugares rurales.Incorporación de agua potable en los hogares de los pueblos mas pobres.",
     bgColor: const Color(0xFFFEFBF9),
   ),
   Product(
     image: "assets/images/obama.png",
     title: "Barack Obama",
     price: 2,
-    palabraDeMaestro: "dsfsdf",
+    palabraDeMaestro:
+        "Aumento del sueldo mínimo.Servicio militar obligatorio.Pena de muerte permitida.Más áreas verdes.",
   ),
   Product(
     image: "assets/images/porky.png",
