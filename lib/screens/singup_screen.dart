@@ -40,7 +40,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
               child: Padding(
             padding: EdgeInsets.fromLTRB(20, 120, 20, 0),
             child: Column(
-              children: <Widget>[
+              children: [
+                TextFormField(),
                 const SizedBox(
                   height: 20,
                 ),
@@ -78,3 +79,5 @@ class _SignUpScreenState extends State<SignUpScreen> {
     );
   }
 }
+
+/* este */
